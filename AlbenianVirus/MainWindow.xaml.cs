@@ -24,5 +24,15 @@ namespace AlbenianVirus
         {
             InitializeComponent();
         }
+
+        private void noButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("You clicked Hell no?");
+        }
+
+        private void yesButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("You clicked yes?");
+        }
     }
 }

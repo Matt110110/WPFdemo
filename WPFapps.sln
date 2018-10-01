@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbenianVirus", "AlbenianVirus\AlbenianVirus.csproj", "{5A0BDC3D-39E5-4299-932C-E0475A7E00DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A0BDC3D-39E5-4299-932C-E0475A7E00DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0BDC3D-39E5-4299-932C-E0475A7E00DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0BDC3D-39E5-4299-932C-E0475A7E00DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0BDC3D-39E5-4299-932C-E0475A7E00DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D7EAEC0-386C-469B-A3E1-5229ED6BCE6B}
+	EndGlobalSection
+EndGlobal

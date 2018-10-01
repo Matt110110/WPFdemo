@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AlbenianVirus"
         mc:Ignorable="d" FontSize="20" 
+        Background="LightGoldenrodYellow"
         Title="Virus" Height="450" Width="800" FontFamily="Papyrus">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -24,7 +25,7 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="2" Grid.Row="1" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold" HorizontalAlignment="Center" Text="Albanian Virus"/>
         <TextBlock Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Text="Hello everyone. I am an computer virus from the country of Albania. I would love to harm your computer but because of poor technology of my country I am unable to do so. Please be so kind as to delete one of your important files yourself and spread me among your friends and family. Many thanks to you!" TextWrapping="Wrap" FontWeight="Bold"/>
-        <Button Grid.Column="1" Grid.Row="4" Name="yesButton" Margin="10" Content=" Let's go " Click="yesButton_Click"/>
-        <Button Grid.Column="3" Grid.Row="4" Name="noButton" Margin="10" Content=" Hell no! " Click="noButton_Click"/>
+        <Button Grid.Column="1" Grid.Row="4" Background="PaleGreen" Name="yesButton" Margin="10" Content=" Let's go " Click="yesButton_Click"/>
+        <Button Grid.Column="3" Grid.Row="4" Background="PaleVioletRed" Name="noButton" Margin="10" Content=" Hell no! " Click="noButton_Click"/>
     </Grid>
 </Window>

@@ -4,9 +4,27 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AlbenianVirus"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        mc:Ignorable="d" FontSize="20" 
+        Title="Virus" Height="450" Width="800" FontFamily="Papyrus">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="2" Grid.Row="1" FontSize="36" FontFamily="Microsoft Sans Serif" FontWeight="Bold" HorizontalAlignment="Center" Text="Albanian Virus"/>
+        <TextBlock Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="3" Text="Hello everyone. I am an computer virus from the country of Albania. I would love to harm your computer but because of poor technology of my country I am unable to do so. Please be so kind as to delete one of your important files yourself and spread me among your friends and family. Many thanks to you!" TextWrapping="Wrap" FontWeight="Bold"/>
+        <Button Grid.Column="1" Grid.Row="4" Content="Hello There"/>
+        <Button Grid.Column="3" Grid.Row="4" Content="Hello There"/>
     </Grid>
 </Window>
